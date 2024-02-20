@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.review {
+    width: 80%;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 50px;
+}
+
+.rv__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rv-items {
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: 0.2px solid rgba(0, 0, 0, 0.277);
+}
+
+.item-text {
+    padding: 50px 60px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+.rv-items:first-child {
+    background-image: url("../../../images/manga.jpg");
+    background-size: cover;
+    box-shadow: inset 0 2000px rgba(14, 14, 14, 0.097);
+}
+
+.rv-items:nth-child(2n) {
+    background-image: url("../../../images/5-centimet-tren-giay.jpg");
+    background-size: cover;
+    box-shadow: inset 0 2000px rgba(14, 14, 14, 0.31)
+}
+
+.rv-items:nth-child(3n) {
+    background-image: url("../../../images/giff.jpg");
+    background-size: cover;
+    box-shadow: inset 0 2000px rgba(14, 14, 14, 0.31)
+}
+
+
+
+
